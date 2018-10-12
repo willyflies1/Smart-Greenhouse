@@ -1,0 +1,32 @@
+Smart Green House
+
+/*
+ * Name: William Hunter Files
+ * Desc: A IoT network to provide a smart greenhouse to farms
+ * Copy: Copyright (C) 2018, William Hunter Files
+ * Vers: 0.0.1 , Snowballing ideas for the smart house and possible devices to be used
+ * File: Notes.txt
+ */
+ 
+ 
+ Processors
+ 
+ * Arduino													// for controlling sensors
+ * Raspberry Pi												// for a master controller and server
+ 
+ Sensors
+ 
+ * Soil Moisture Sensor
+ * Camera Module											// image processing to detect healthy growing plants
+															// will be controlled by raspberry pi
+															// possible edge detection for plants being ate by bugs
+ * Light detection sensor									
+ * Arduino WiFi shield
+ * DHT 21 (AM2301) Temperature and humidity sensor
+ * Water pump												// to push water to all the plants
+ 
+ Software
+ 
+ * MQTT 													// possible server to be used
+ * C-programming											// for sensors
+ * Python													// to communicate from Raspberry Pi
